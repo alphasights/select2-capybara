@@ -1,3 +1,5 @@
+require 'capybara/rspec'
+
 module Capybara
   module Select2
     def select2(value, options = {})
